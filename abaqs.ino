@@ -32,8 +32,8 @@
 
 unsigned int DUST_PIN = 0;
 
-unsigned int BLUETOOTH_TX_PIN = 8;  // TX-O pin of bluetooth module, Arduino D2
-unsigned int BLUETOOTH_RX_PIN = 9;  // RX-I pin of bluetooth module, Arduino D3
+unsigned int BLUETOOTH_TX_PIN = 4;  // TX-O pin of bluetooth module, Arduino D2
+unsigned int BLUETOOTH_RX_PIN = 3;  // RX-I pin of bluetooth module, Arduino D3
 
 unsigned int DUST_LED_PIN = 2;
 // all the delays below are in MICROseconds
