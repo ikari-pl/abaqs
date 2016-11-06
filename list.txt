@@ -1,0 +1,10 @@
+elasticsearch-1.1.1/bin/elasticsearch 
+
+sudo rfcomm connect 0 
+
+sudo cat /dev/rfcomm0 | tee log.txt
+
+serve kibana
+
+node ./converter.js ../log.txt | logstash-1.4.2/bin/logstash -f logstash.conf
+
